@@ -46,17 +46,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bDm-Vn-hDe">
-                                <rect key="frame" x="145" y="133" width="86" height="30"/>
-                                <animations/>
-                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Mosher 定律">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="xvu-xF-fmq" kind="push" id="RWT-sP-m2H"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T9O-yj-CZ5">
                                 <rect key="frame" x="93" y="205" width="191" height="30"/>
                                 <animations/>
@@ -72,6 +61,17 @@
                                 <state key="normal" title="Perl 語言發明者 Larry Wall">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bDm-Vn-hDe">
+                                <rect key="frame" x="198" y="148" width="86" height="30"/>
+                                <animations/>
+                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Mosher 定律">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xvu-xF-fmq" kind="push" id="RWT-sP-m2H"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
@@ -165,7 +165,7 @@
                                 <rect key="frame" x="20" y="72" width="335" height="546"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">被刪除的程式就是被除錯的程式。（Jeff Sickel）
+                                <string key="text">被刪除的程式就是被除錯的程式。（Jeff Sickel）
 Deleted code is debugged code. (Jeff Sickel)
 如果除錯是消除軟體 bug 的過程，那寫程式一定是把它們放進去的過程。（Edsger Dijkstra）
 If debugging is the process of removing software bugs, then programming must be the process of putting them in. (Edsger Dijkstra)
@@ -187,7 +187,7 @@ Beware of bugs in the above code; I have only proved it correct, not tried it. (
 
 軟體能夠反覆使用之前，它必須要先可以用。（Ralph Johnson）
 Before software can be reusable it first has to be usable. (Ralph Johnson)
-</mutableString>
+</string>
                                 <color key="textColor" red="0.99568110700000001" green="0.35254731769999997" blue="0.3449045718" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -238,7 +238,7 @@ Before software can be reusable it first has to be usable. (Ralph Johnson)
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kso-M0-kIV">
                                 <rect key="frame" x="20" y="20" width="335" height="684.5"/>
                                 <animations/>
-                                <mutableString key="text">52. 軟體能夠反覆使用之前，它必須要先可以用。（Ralph Johnson）
+                                <string key="text">52. 軟體能夠反覆使用之前，它必須要先可以用。（Ralph Johnson）
 Before software can be reusable it first has to be usable. (Ralph Johnson)
 53. 軟體通常在 beta 測試完成不久後發表。Beta 在拉丁語中是「還不能用」的意思。（Anonymous）
 Software undergoes beta testing shortly before it’s released. Beta is Latin for “still doesn't work". (Anonymous)
@@ -253,7 +253,7 @@ Software and cathedrals are much the same – first we build them, then we pray.
 58. 除非最後一個使用者死掉，軟體是不會有完工的時候的。（Anonymous）
 The software isn’t finished until the last user is dead. (Anonymous)
 59. 如今的大部分軟體都非常像埃及金字塔，由成千上萬的石塊一塊一塊構成，沒有結構上的整合，而是由暴力強制和成千上萬的奴隸完成。（Alan Kay）
-Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves. (Alan Kay)</mutableString>
+Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves. (Alan Kay)</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
